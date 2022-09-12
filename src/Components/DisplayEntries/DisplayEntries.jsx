@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const DisplayEntries = (props) => {
     return ( 
-        <table>
+        <table className="table">
             <thead>
             <tr>
                 <th>Entry Number</th>
